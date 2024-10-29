@@ -244,10 +244,64 @@ Index - Call to Action Section
   background-color: #c0392b;
 }
 
+/* ourteam-profile */
+
+.profile-intro-container {
+  position: relative;
+  padding: 90px 0;
+}
+.simple-block {
+  padding: 30px 0;
+}
 
 
+.profile-container {
+  display:flex;
+  flex-direction : column;
+  align-items: center;
+  padding: auto;
+  
+}
+/* 
+.profile {
+  display:flex;
+  flex-direction : column;
+  align-items: center;
+  padding: auto;
+  margin: 1.5 rem;
+  border:1px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  width: 80%;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+  
+} */
+.profile-member{
+  /* margin-bottom: 100px; */
+  display:flex;
+  width: 850px;
 
+  align-items:  space-between;
+  margin-bottom: 20px;
+  padding: 20px;
+  border:1px solid black;
+  border-radius: 8px;
 
+  
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border : 2px solid black;
+  border-radius: 50%;
+  margin-right: 50px;
+}
+
+.profile-text {
+  max-width: 500px;
+  margin-right:20px;
+}
 
 /* Responsiveness */
 @media screen and (max-width: 768px) {
