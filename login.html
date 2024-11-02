@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body class="login-page">
+    <header>
+        <nav>
+          <div class="logo">
+            <img src="images/logo.png" alt="Logo">
+            <a href="index.html" class="logo">Transylvania</a>
+          </div>
+          
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="our-team.html">Our Team</a></li>
+            <li><a href="login.html" class="active">Login</a></li>
+          </ul>
+        </nav>
+    </header>
+    <div class="login-page-">
+        <div class="signup">
+            <div class="signup-connect">
+              <h1>Create your account</h1>
+              <a href="#" class="btn btn-social btn-facebook"><i class="fa fa-facebook"></i> Sign in with Facebook</a>
+              <a href="#" class="btn btn-social btn-twitter"><i class="fa fa-twitter"></i> Sign in with Twitter</a>
+              <a href="#" class="btn btn-social btn-google"><i class="fa fa-google"></i> Sign in with Google</a>
+              <a href="#" class="btn btn-social btn-linkedin"><i class="fa fa-linkedin"></i> Sign in with Linkedin</a>
+            </div>
+          <div class="login-img-container">
+          </div>
+          <main class="login-main">
+            <form class="login-form">
+                <div class="login-form-container">
+                    <label for="uname"><b>Username</b></label>
+                    <input type="text" placeholder="Enter Username" name="uname" class="login-input" required>
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" class="login-input" required>
+                    <button type="submit" class="login-btn">Login</button>
+                    <label>
+                        <input type="checkbox" checked="checked" name="remember"> Remember me
+                    </label>
+                </div>     
+                <div class="login-footer-container">
+                    <button type="button" class="login-cancel-btn">Cancel</button>
+                    <span class="login-psw"><a href="#">Forgot password?</a></span>
+                </div>
+            </form>
+        </main>        
+    <footer>
+        <p>&copy; 2024 Eduardo - Vlad - Shawn. All rights reserved.</p>
+    </footer>
+</body>
+</html>
